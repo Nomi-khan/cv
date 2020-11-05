@@ -47,5 +47,6 @@ body{
     font-family: sans-serif;
     font-size: 14px; 
     table-layout: auto;
+    text-align:justify;
   }
   
