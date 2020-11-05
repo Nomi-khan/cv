@@ -1,0 +1,51 @@
+:root{
+    --bgcolor:#e3fdfd;
+    --h-color: #71c9ce;
+    --bodr-color: #cbf1f5;
+    --ex-color: #a6e3e9;
+}
+
+body{
+    background: var(--bgcolor);
+  }
+
+  h1,h3{
+      color: var(--h-color);
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color:var(--ex-color);
+    border-width: 7px;
+    width: 5%;
+  }
+
+  p{
+    font-family: monospace;
+    font-weight: 100;
+  }
+
+  .education{
+    /* width: 100%; */
+    font-family: sans-serif;
+    font-size: 14px;  
+    table-layout: auto;
+    text-align: justify;
+  }
+
+  .education th{
+    color: gray;
+  }
+  
+  .education tr :first-child{
+    font-weight: bold;
+  }
+
+  .skills{
+    font-family: sans-serif;
+    font-size: 14px; 
+    table-layout: auto;
+  }
+  
